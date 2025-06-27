@@ -1,0 +1,92 @@
+.dialog-box-container {
+    position: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.7);
+    z-index: 10002;
+}
+
+.dialog-box-main {
+    background-color: white;
+    padding: 20px;
+    margin: 0 10px 0 10px;
+    border-radius: 15px;
+    z-index: 10002;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.dialog-box-title {
+    font-size: 30px;
+    font-weight: 600;
+    color: orange;
+    cursor: default;
+}
+
+.dialog-box-message {
+    font-size: 16px;
+    font-weight: 400;
+    color: black;
+    max-width: 350px;
+    cursor: default;
+}
+
+.dialog-box-action {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    gap: 20px;
+}
+
+.dialog-box-cancle {
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+    text-decoration: underline;
+    font-size: 16px;
+    font-weight: 400;
+    color: black;
+}
+
+.dialog-box-event {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 6px 14px;
+    border-radius: 6px;
+    border: none;
+    color: white;
+    font-size: 16px;
+    font-weight: 400;
+    cursor: pointer;
+    background: linear-gradient(180deg, #4B91F7 0%, #367AF6 100%);
+    background-origin: border-box;
+    box-shadow: 0px 0.5px 1.5px rgba(54, 122, 246, 0.25), inset 0px 0.8px 0px -0.25px rgba(255, 255, 255, 0.2);
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+}
+
+.dialog-box-event:hover {
+    box-shadow: inset 0px 0.8px 0px -0.25px rgba(255, 255, 255, 0.2), 0px 0.5px 1.5px rgba(54, 122, 246, 0.25), 0px 0px 0px 1.5px rgba(58, 108, 217, 0.5);
+    outline: 0;
+}
+
+.session-timeout-container {
+    background-color: grey;
+    height: 8px;
+    border-radius: 40px;
+    max-width: 350px;
+}
+
+.session-timeout-container-bar {
+    background-color: orange;
+    height: 8px;
+    border-radius: 40px;
+}

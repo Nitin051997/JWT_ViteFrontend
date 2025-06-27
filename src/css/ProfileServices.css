@@ -1,0 +1,110 @@
+.profile-services {
+    background-color: black;
+    border-radius: 10px;
+    width: 35%;
+    box-shadow: 6px 6px 8px rgba(0, 0, 0, 0.3);
+    display: flex;
+    flex-direction: column;
+    align-self: baseline;
+}
+
+.profile-services-title-section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    padding: 10px 0 10px 0;
+}
+
+.profile-services-title {
+    font-size: 26px;
+    font-weight: 600;
+    color: white;
+}
+
+.profile-services-edit-icon {
+    padding: 5px 8px 8px 8px;
+    width: 30px;
+}
+
+.profile-services-list {
+    padding: 10px 40px 10px 40px;
+    overflow: visible;
+}
+
+.profile-services-list-data {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 0 15px 0;
+    /* position: relative; */
+    z-index: 1;
+}
+
+.profile-services-list-data-icon {
+    width: 40px;
+}
+
+.profile-services-list-data-text {
+    font-size: 22px;
+    font-weight: 600;
+    color: white;
+}
+
+.profile-services-list-data-info {
+    width: 20px;
+    height: 20px;
+    cursor: pointer;
+}
+
+.profile-services-list-data-info-container {
+    width: 70%;
+    padding: 10px;
+    border-radius: 20px;
+    background-color: rgb(10, 10, 10);
+    color: white;
+    z-index: 2;
+    position: absolute;
+    top: 50%;
+    left: 20%;
+    box-shadow: 0px 4px 10px rgba(182, 182, 182, 0.3);
+}
+
+.profile-services-no-services {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    margin: 10px 0 10px 0;
+}
+
+.profile-services-no-services-img {
+    width: 100px;
+    height: 100px;
+}
+
+.profile-services-loader {
+    background-color: black;
+    border-radius: 10px;
+    width: 35%;
+    box-shadow: 6px 6px 8px rgba(0, 0, 0, 0.3);
+    display: flex;
+    flex-direction: column;
+}
+
+@media screen and (max-width: 1080px) {
+    .profile-services {
+        width: 100%;
+    }
+    .profile-services-loader {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .profile-services-list {
+        padding: 10px 20px 10px 20px;
+    }
+}

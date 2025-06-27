@@ -1,0 +1,78 @@
+.signup-page-container {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    background-color: black;
+}
+
+.signup-page-input {
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+
+.signup-page-otp {
+    display: flex;
+    flex-direction: row;
+}
+
+.signup-page-otp-btn {
+    border: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    background-color: var(--background-highlight, black);
+}
+
+.signup-page-otp-img {
+    width: 25px;
+    height: 25px;
+}
+
+.signup-page-otp-text {
+    width: 80px;
+    background-color: white;
+    color: black;
+    padding: 10px;
+    font-size: 22px;
+    font-weight: 500;
+    font-family: Arial, Helvetica, sans-serif;
+    letter-spacing: 10px;
+    cursor: default;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.signup-btn {
+    width: 200px;
+    height: 40px;
+    border: none;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--background-highlight, #577BE6);
+    color: black;
+    font-size: 15px;
+    font-weight: 700;
+    cursor: pointer;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.signup-btn:hover {
+    transform: scale(1.1);
+}
+
+.login-info-container {
+    color: white;
+    cursor: default;
+}
+
+.login-info-btn {
+    cursor: pointer;
+}

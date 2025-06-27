@@ -1,0 +1,89 @@
+.profile-session {
+    background-color: black;
+    border-radius: 10px;
+    box-shadow: 6px 6px 8px rgba(0, 0, 0, 0.3);
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    padding: 10px 30px 10px 30px;
+}
+
+.profile-session-token {
+    flex: 70%;
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.profile-session-token-text {
+    font-size: 18px;
+    font-weight: 600;
+    color: white;
+    word-break: break-word; /* Ensure wrapping for long tokens */
+}
+
+.profile-session-token-container {
+    font-size: 18px;
+    font-weight: 600;
+    color: white;
+    border: 2px dashed white; /* Dashed border */
+    padding: 15px 10px 15px 10px;
+    border-radius: 5px; /* Optional: Rounds corners */
+    width: 90%;
+    word-wrap: break-word; /* Forces text to wrap */
+    overflow-wrap: break-word; /* Ensures breaking in all cases */
+    white-space: normal; /* Allows text to wrap */
+    word-break: break-all; /* Forces breaking for long words */
+    display: flex;
+    flex-direction: column;
+}
+
+.profile-session-loginstatus {
+    flex: 30%;
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+.profile-session-status-title {
+    font-size: 26px;
+    font-weight: 600;
+    color: white;
+}
+
+.profile-session-loader {
+    background-color: black;
+    border-radius: 10px;
+    box-shadow: 6px 6px 8px rgba(0, 0, 0, 0.3);
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    padding: 10px 30px 10px 30px;
+}
+
+@media screen and (max-width: 1080px) {
+    .profile-session-loader {
+        height: 100px;
+    }
+}
+
+@media screen and (max-width: 900px) {
+    .profile-session {
+        flex-direction: column;
+    }
+    .profile-session-token {
+        flex: 100%;
+        width: 100%;
+    }
+    .profile-session-loginstatus {
+        flex: 100%;
+        width: 100%;
+    }
+    .profile-session-token-container {
+        width: 96%;
+    }
+}

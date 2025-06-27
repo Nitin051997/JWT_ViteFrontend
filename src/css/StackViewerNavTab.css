@@ -1,0 +1,22 @@
+.stack-viewer-navtab-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 10px;
+}
+
+.stack-viewer-container-label {
+    font-size: 24px;
+    font-weight: 500;
+    color: #d5dbeb;
+    cursor: default;
+}
+
+@media screen and (max-width: 700px) {
+    .stack-viewer-navtab-container {
+        gap: 5px;
+    }
+    .stack-viewer-navtab-button-label {
+        display: none;
+    }
+}

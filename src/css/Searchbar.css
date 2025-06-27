@@ -1,0 +1,40 @@
+.app-search-bar {
+    background-color: rgba(255, 255, 255, 0.145);
+    border-radius: 5px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 3px 8px 3px 8px;
+    cursor: pointer;
+}
+
+.app-search-bar-icon {
+    color: white;
+    opacity: 90%;
+}
+
+.app-search-bar-input {
+    display: block;
+    width: 110px;
+    height: 30px;
+    outline: none;
+    border: none;
+    background-color: transparent;
+    color: white;
+    font-size: 16px;
+    font-weight: 700;
+    transition: width 0.5s ease-in-out;
+}
+
+.app-search-bar-input:hover {
+    outline: none;
+}
+
+.app-search-bar-input:focus {
+    width: 260px;
+}
+
+.app-search-bar-input::placeholder {
+    color: rgba(255, 255, 255, 0.5);
+}

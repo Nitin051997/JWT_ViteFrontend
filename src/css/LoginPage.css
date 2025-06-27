@@ -1,0 +1,68 @@
+.login-page-container {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    background-color: black;
+}
+
+.login-page-header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+.login-page-app-icon {
+    width: 155px;
+    height: auto;
+}
+
+.login-page-app-info {
+    font-size: 30px;
+    font-weight: 600;
+    cursor: default;
+}
+
+.login-page-input {
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+
+.input-style {
+    width: 20vw;
+}
+
+.login-btn {
+    width: 200px;
+    height: 40px;
+    border: none;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--background-highlight, #577BE6);
+    color: black;
+    font-size: 15px;
+    font-weight: 700;
+    cursor: pointer;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.login-btn:hover {
+    transform: scale(1.1);
+}
+
+.signup-info-container {
+    color: white;
+    cursor: default;
+}
+
+.signup-info-btn {
+    cursor: pointer;
+}

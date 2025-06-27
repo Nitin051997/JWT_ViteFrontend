@@ -1,0 +1,138 @@
+.stack-viewer-card {
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 5px;
+    box-shadow: 4px 4px 6px rgb(205, 205, 205);
+    margin: 10px 10px 0 10px;
+    padding: 5px;
+    cursor: default;
+}
+
+.stack-viewer-card:hover {
+    background-color: rgb(250, 250, 250);
+    transform: scale(1.02);
+}
+
+.stack-viewer-card-icon {
+    display: flex;
+    justify-content: center;
+    min-width: 15%;
+}
+
+.stack-viewer-card-information {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    gap: 10px;
+    min-width: 25%;
+}
+
+.stack-viewer-card-zone {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    gap: 10px;
+    min-width: 30%;
+}
+
+.stack-viewer-card-status {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    min-width: 15%;
+}
+
+.stack-viewer-card-status-info {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+}
+
+.stack-viewer-card-action {
+    display: flex;
+    justify-content: center;
+    min-width: 15%;
+}
+
+.stack-viewer-card-data {
+    font-size: 16px;
+    font-weight: 600;
+    color: black;
+}
+
+.stack-viewer-card-label {
+    font-size: 14px;
+    font-weight: 400;
+    color: black;
+}
+
+.view-user-btn {
+    width: 98px;
+}
+
+.stack-viewer-card-loader {
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 5px;
+    box-shadow: 4px 4px 6px rgb(100, 0, 200, 0.6);
+    margin: 10px 10px 0 10px;
+    padding: 5px;
+    cursor: default;
+}
+
+@media screen and (max-width: 970px) {
+    .stack-viewer-card {
+        flex-wrap: wrap;
+    }
+    .stack-viewer-card-icon {
+        min-width: 10%;
+    }
+    .stack-viewer-card-information {
+        min-width: 30%;
+    }
+    .stack-viewer-card-zone {
+        min-width: 30%;
+    }
+    .stack-viewer-card-status {
+        min-width: 10%;
+    }
+    .stack-viewer-card-action {
+        min-width: 100%;
+        display: flex;
+    }
+    .view-user-btn {
+        width: 100%;
+    }
+    .stack-viewer-card-loader {
+        flex-wrap: wrap;
+    }
+}
+
+@media screen and (max-width: 640px) {
+    .stack-viewer-card-icon {
+        min-width: 20%;
+    }
+    .stack-viewer-card-information {
+        min-width: 60%;
+    }
+    .stack-viewer-card-zone {
+        display: none;
+    }
+    .stack-viewer-card-status {
+        min-width: 20%;
+    }
+    .stack-viewer-card-label {
+        display: flex;
+        justify-content: center;
+    }
+    .stack-viewer-card-data {
+        font-size: 14px;
+    }
+}

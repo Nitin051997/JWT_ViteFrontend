@@ -1,0 +1,49 @@
+/* * { background-color: black; } */
+
+/* p { font-size: 30px; color: red; } */
+
+/* #surname { font-size: 40px; color: blue; } */
+
+/* .role { font-size: 50px; color: white; } */
+
+/* p, #surname, .role { font-weight: 800; } */
+
+/* section p { color: blueviolet; } */
+
+/* section > p { color: yellowgreen; } */
+
+/* section p:hover { color: black; } */
+
+/* p::first-letter { color: yellow; } */
+
+/* .highlight { background-color: yellow; } */
+
+/* #unique-title { color: red; font-size: 24px; } */
+
+/* .hidden-box { visibility: hidden; background: lightblue; padding: 10px; margin-bottom: 10px; } */
+
+/* .none-box { display: none; background: lightcoral; padding: 10px; } */
+
+/* .box { width: 150px; height: 150px; position: absolute; } */
+
+/* .box1 { background: red; top: 50px; left: 50px; z-index: 1; } Lower priority */
+
+/* .box2 { background: blue; top: 80px; left: 80px; z-index: 2; } Higher priority, appears on top */
+
+/* .button::before { content: "🔥 "; } */
+
+/* .button::after { content: " 🚀"; } */
+
+/* .button { font-size: 20px; background: lightblue; padding: 10px; border-radius: 5px; } */
+
+/* p::first-letter { font-size: 2rem; color: red; } */
+
+/* p::first-line { font-weight: bold; } */
+
+/* p::selection { background: yellow; color: black; } */
+
+/* .box { width: 200px; height: 100px; padding: 20px; border: 5px solid black; margin: 30px; background-color: lightblue; } */
+
+/* .content-box { width: 200px; padding: 20px; border: 5px solid black; box-sizing: content-box; background-color: lightblue; margin-bottom: 20px; } */
+
+/* .border-box { width: 200px; padding: 20px; border: 5px solid black; box-sizing: border-box; background-color: lightcoral; } */

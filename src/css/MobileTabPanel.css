@@ -1,0 +1,23 @@
+.mobile-tab-panel-container {
+    width: 300px;
+    height: 100%;
+    background-color: white;
+}
+
+.mobile-tab-panel-profile {
+    height: 10%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+.mobile-tab-panel-menu {
+    height: 80%;
+}
+
+.mobile-tab-panel-access {
+    height: 10%;
+    display: flex;
+    justify-content: center;
+}
